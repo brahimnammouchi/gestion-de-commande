@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "386973769937",
+    "project_id": "gestion-commande-fd6d4",
+    "storage_bucket": "gestion-commande-fd6d4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:386973769937:android:807bb8b7ab1cf165e025f0",
+        "android_client_info": {
+          "package_name": "com.brahim.nammouchi.gestioncommande"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "386973769937-plm3alhi6qdlef18e8lfuq7vkps7crnm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLyQU2JJmwS3slKWhxB9bt4A1ov2jb648"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "386973769937-plm3alhi6qdlef18e8lfuq7vkps7crnm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

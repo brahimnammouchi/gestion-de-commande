@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <AutoCompleteTextView
+        android:id="@+id/saisieAuto"
+        android:layout_width="322dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@id/articleLst"
+        android:layout_alignLeft="@id/articleLst"
+        android:layout_alignEnd="@id/articleLst"
+        android:layout_alignRight="@id/articleLst"
+        android:layout_marginTop="132dp"
+        android:background="#994CAF50"
+        android:hint="client_de_la_commande"
+        android:textColor="#F3EFEF"
+        android:textColorHint="#9C27B0"
+        app:layout_constraintBottom_toTopOf="@+id/articleLst"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ListView
+        android:id="@+id/articleLst"
+        android:layout_width="336dp"
+        android:layout_height="323dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="216dp"
+        android:background="#4DFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:background="#3F51B5"
+        android:onClick="goToAdd"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/saisieAuto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.889"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.551"
+        tools:text="+" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
